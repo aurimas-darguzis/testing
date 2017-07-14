@@ -9,3 +9,5 @@ Unit Tests - Testing of individual functions or classes by mocking input and mak
 Integration Tests - Testing several modules to ensure they work together as expected.
 
 Functional Tests - Testing a scenario on the product itself (on the browser, for example) regardless the internal structure to ensure expected behavior.
+
+more info here: https://medium.com/powtoon-engineering/a-complete-guide-to-testing-javascript-in-2017-a217b4cd5a2a
