@@ -1,8 +1,6 @@
 # testing
 
-Test Types
-
-In general, the most important test types are:
+## Test Types
 
 Unit Tests - Testing of individual functions or classes by mocking input and making sure the output is as expected.
 
@@ -10,4 +8,25 @@ Integration Tests - Testing several modules to ensure they work together as expe
 
 Functional Tests - Testing a scenario on the product itself (on the browser, for example) regardless the internal structure to ensure expected behavior.
 
+## Test Tools Types
+
+It is common to usd a combination of tools to get what you need.
+
+Provide a test environemnt - Mocha, Jasmine, Jest, Karma
+
+Provide a testing structure - Mocha, Jasmine, Jest, Cucumber
+
+Provide an asserions functions - Chai, Jasmine, Jest, Unexpected
+
+Generate, display, and watch test results - Mocha, Jasmine, Jest, Karma
+
+Generate and compare snapshots of component and data structures to make sure changes from previous runs are inteded - Jest, Ava
+
+Provide mocks, spies, and stubs - Sinon, Jasmine, enzyme, Jest, testdouble
+
+Generate code coverage reports - Istanbul, Jest
+
+Provide a browser or browser-liek environment with a control on their scenarios execution - Protractor, Nightwatch, Phantom, Casper
+
+### More info:
 more info here: https://medium.com/powtoon-engineering/a-complete-guide-to-testing-javascript-in-2017-a217b4cd5a2a
