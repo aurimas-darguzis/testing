@@ -2,9 +2,10 @@
 
 ## Test Types
 
-* unit Tests - Testing of individual functions or classes by mocking input and making sure the output is as expected.
-* integration Tests - Testing several modules to ensure they work together as expected.
-* functional Tests - Testing a scenario on the product itself (on the browser, for example) regardless the internal structure to ensure expected behavior.
+* unit Tests - testing of individual functions or classes by mocking input and making sure the output is as expected
+* integration Tests - testing several modules to ensure they work together as expected
+* functional Tests - testing a scenario on the product itself (on the browser, for example) regardless the internal structure to ensure expected behavior
+* end-to-end (e2e) - pretend you are a user and you want to accomplish a task and you go through the steps to reach that goal in your app
 * performance
 * penetration
 * Load
