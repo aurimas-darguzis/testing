@@ -2,11 +2,16 @@
 
 ## Test Types
 
-Unit Tests - Testing of individual functions or classes by mocking input and making sure the output is as expected.
-
-Integration Tests - Testing several modules to ensure they work together as expected.
-
-Functional Tests - Testing a scenario on the product itself (on the browser, for example) regardless the internal structure to ensure expected behavior.
+* unit Tests - Testing of individual functions or classes by mocking input and making sure the output is as expected.
+* integration Tests - Testing several modules to ensure they work together as expected.
+* functional Tests - Testing a scenario on the product itself (on the browser, for example) regardless the internal structure to ensure expected behavior.
+* performance
+* penetration
+* Load
+* Usability
+* A/B
+* a11y
+* ...
 
 ## Test Tools Types
 
@@ -28,7 +33,10 @@ Generate code coverage reports - Istanbul, Jest
 
 Provide a browser or browser-liek environment with a control on their scenarios execution - Protractor, Nightwatch, Phantom, Casper
 
-### More info:
-more info here: https://medium.com/powtoon-engineering/a-complete-guide-to-testing-javascript-in-2017-a217b4cd5a2a
+### How do we prevent bugs?
+* implement static types (Flow / TypeScript)
+* use linting tool (EsLint). Learn how to write custom lint rools as well
+* testing code
+
 
 
