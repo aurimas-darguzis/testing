@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JokeComponent implements OnInit {
   joke: string;
-  title: 'Chuck Norris Jokes';
+  title = 'Chuck Norris Jokes';
   // title: string;
 
   constructor(private jokeService: JokeService) {

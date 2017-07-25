@@ -3,7 +3,7 @@ import { browser, element, by } from 'protractor';
 describe(`Page: Joke Page`, () => {
   it(`should have a title of 'Chuck Norris Jokes'`, () => {
     browser.get('/');
-    const title = element(by.css('h1')).getText();
+    const title = element(by.css('h2')).getText();
     expect(title).toEqual('Chuck Norris Jokes');
   });
 
