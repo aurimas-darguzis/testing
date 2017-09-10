@@ -12,7 +12,6 @@
 * Usability
 * A/B
 * a11y
-* ...
 
 ## Test Tools Types
 
