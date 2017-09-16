@@ -38,5 +38,5 @@ Provide a browser or browser-liek environment with a control on their scenarios 
 * use linting tool (EsLint). Learn how to write custom lint rools as well
 * testing code
 * manual testing
-
+* educating on how to write good quality code
 
